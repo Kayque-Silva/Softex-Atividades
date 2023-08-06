@@ -1,0 +1,45 @@
+Atividades Softex
+
+Aluno: Kayque
+
+algoritmo "EscolhaOpcao"
+var
+   resposta, opcao: caractere
+inicio
+      Escreval("|---ESCOLHA UMA DAS OPÇÕES---|")
+      Escreval("|- TRATOR                    |")
+      Escreval("|- MOTO                      |")
+      Escreval("|- BICICLETA                 |")
+      Escreval("|----------------------------|")
+      Escreval("Responda com sim ou não")
+      Escreval("É terrestre?")
+      Leia(resposta)
+      Se(resposta = "sim") Entao
+       Escreval("Cabe apenas 1 pessoa?")
+       Leia(resposta)
+       Se(resposta = "sim") Entao
+        Escreval("É pesado?")
+        Leia(resposta)
+        Se(resposta = "sim") entao
+        opcao <- "TRATOR"
+        Senao
+           Escreval("Tem pedal?")
+           leia(resposta)
+           Se(resposta = "sim") entao
+             opcao <- "BICICLETA"
+            Senao
+             opcao <- "NENHUMA"
+       Fimse
+      Fimse
+      Senao
+         Escreval("Usa capacete?")
+         Leia(resposta)
+         Se(resposta = "sim") entao
+           opcao <- "MOTO"
+         Senao
+           opcao <- "NENHUMA"
+           Fimse
+         Fimse
+      Fimse
+      Escreva("A opção escolhida foi:", opcao)
+fimalgoritmo

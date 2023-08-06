@@ -1,0 +1,27 @@
+Atividades Softex
+
+Aluno: Kayque
+
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+Resposta:
+As variáveis armazenam os dados atribuídos a ela que funciona como um identificador, nesse caso foi declarado variáveis do tipo caractere (que podem receber letras, números e caracteres especiais desde que estejam dentro de aspas duplas), inteiro (usados para representar números inteiros, sem a necessidade de virgulas) e real (usados para representar os números decimais, que possuem virgula).
+Declaração das variáveis:
+Nome, Endereco : caractere  
+CPF, RG : inteiro
+Altura : real
+Atribuição:
+Nome <- “José Almeida da Silva”
+CPF <- 12345678900
+RG <- 9517530
+Altura <- 1,78
+Endereço <- “Rua A, 380 – Centro – Recife/PE”

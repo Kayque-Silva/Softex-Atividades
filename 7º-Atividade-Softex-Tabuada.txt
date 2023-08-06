@@ -1,0 +1,17 @@
+Atividades Softex
+
+Aluno: Kayque
+
+algoritmo "Tabuada"
+var
+   cont, numero, resposta: inteiro
+inicio
+      cont<- 1
+      Escreva("Quer saber a tabuada de qual número? ")
+      Leia(numero)
+      Repita
+            resposta <- numero * cont
+            Escreval(numero, "x" ,cont, "=", resposta)
+            cont <- cont + 1
+      Ate(cont > 10)
+Fimalgoritmo

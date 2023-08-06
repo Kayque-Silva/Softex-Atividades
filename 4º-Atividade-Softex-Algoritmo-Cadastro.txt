@@ -1,0 +1,60 @@
+Atividades Softex
+
+Aluno: Kayque
+
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+Apresente as informações solicitadas no final do cadastro.
+
+Resposta:
+
+Algoritmo "Cadastro"
+Var
+Nome, Endereco, Cidade, NomeDoPai, NomeDaMae: caractere
+CPF, RG, Idade: inteiro
+Peso, RendaBruta: real
+Inicio
+      Escreva("Digite seu Nome: ")
+      Leia(Nome)
+      Escreva("Digite seu Endereço: ")
+      Leia(Endereco)
+      Escreva("Digite sua Cidade: ")
+      Leia(Cidade)
+      Escreva("Digite seu CPF: ")
+      Leia(CPF)
+      Escreva("Digite seu RG: ")
+      Leia(RG)
+      Escreva("Digite sua Idade: ")
+      Leia(Idade)
+      Escreva("Digite o Nome do seu Pai: ")
+      leia(NomeDoPai)
+      Escreva("Digite o Nome da sua Mãe: ")
+      Leia(NomeDaMae)
+      Escreva("Digite seu Peso: ")
+      Leia(Peso)
+      Escreva("Digite sua Renda Bruta: ")
+      Leia(RendaBruta)
+Fimalgoritmo
+
+Digite seu Nome: Kayque
+Digite seu Endereço: Saturno
+Digite sua Cidade: Caruaru
+Digite seu CPF: 12345678900
+Digite seu RG: 09876543
+Digite sua Idade: 26
+Digite o Nome do seu Pai: Painho
+Digite o Nome da sua Mãe: Mainha
+Digite seu Peso: 60,2
+Digite sua Renda Bruta: 0000,00
+
+
